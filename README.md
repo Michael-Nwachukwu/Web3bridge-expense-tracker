@@ -21,11 +21,9 @@ Git installed
 
 Clone the repository:
 
-git clone <remote-url>
+git clone (https://github.com/Michael-Nwachukwu/Web3bridge-expense-tracker.git)
+
 Navigate to the project directory:
-
-
-cd personal-finance-tracker
 Install dependencies:
 
 
