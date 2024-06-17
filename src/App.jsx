@@ -1,12 +1,15 @@
+import Balance from "./components/Balance"
+import Header from "./components/Header"
+import TransactionList from "./components/TransactionList"
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline text-red-700">
-        Hello world!
-      </h1>
-    </>
+    <main className="max-w-4xl mx-auto space-y-6">
+      <Header />
+      <Balance />
+      <TransactionList />
+    </main>
   )
 }
 
