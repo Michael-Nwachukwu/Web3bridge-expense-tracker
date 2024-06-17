@@ -1,7 +1,7 @@
 import React from "react";
 import TransactionForm from "./TransactionForm";
 
-const Header = () => {
+const Header = ({ addTransaction }) => {
   return (
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex justify-between py-5 flex-row items-center">
@@ -35,7 +35,7 @@ const Header = () => {
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
         </button> */}
-        <TransactionForm />
+        <TransactionForm addTransaction={addTransaction} />
       </div>
     </header>
   );

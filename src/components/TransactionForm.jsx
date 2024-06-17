@@ -21,6 +21,7 @@ const TransactionForm = ({ addTransaction }) => {
     setAmount('');
     setCategory('');
     setDescription('');
+    toggleModal()
   };
 
   const toggleModal = () => {
