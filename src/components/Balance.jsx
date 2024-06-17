@@ -1,7 +1,7 @@
 import React from 'react'
 import TransactionForm from './TransactionForm'
 
-const Balance = () => {
+const Balance = ({addTransaction}) => {
     return (
         <div className='flex flex-col items-start gap-3'>
             <h1 className="text-3xl font-bold text-indigo-700">Wallet Balance</h1>
