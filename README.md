@@ -1,8 +1,36 @@
-# React + Vite
+Project Description
+The Personal Finance Tracker is a React-based application that helps users manage their income and expenses. Users can categorize their transactions, and the application stores data persistently using browser storage. The design is responsive, ensuring usability across various devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Input forms for recording income and expenses
+Categorization of transactions into income and expenses
+Automatic date entry for each transaction
+Data persistence using browser storage
+Responsive design
+Technologies Used
+React
+Tailwind
+JavaScript
+Local Storage
 
-Currently, two official plugins are available:
+Getting Started
+Prerequisites
+Node.js and npm installed
+Git installed
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Clone the repository:
+
+git clone <remote-url>
+Navigate to the project directory:
+
+
+cd personal-finance-tracker
+Install dependencies:
+
+
+npm install
+Start the development server:
+
+
+npm start

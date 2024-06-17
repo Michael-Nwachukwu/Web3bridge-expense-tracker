@@ -7,7 +7,6 @@ const TransactionForm = ({ addTransaction }) => {
   const [amount, setAmount] = useState('');
   const [category, setCategory] = useState('');
   const [description, setDescription] = useState('');
-  const [date, setDate] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
