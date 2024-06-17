@@ -20,7 +20,7 @@ function App() {
   }, [transactions]);
 
   return (
-    <main className="max-w-4xl mx-auto space-y-6">
+    <main className="max-w-4xl mx-auto space-y-6 px-4">
       <Header addTransaction={addTransaction} />
       <Balance />
       <TransactionList transactions={transactions} />
