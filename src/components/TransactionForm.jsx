@@ -7,14 +7,17 @@ const TransactionForm = ({ addTransaction }) => {
   const [amount, setAmount] = useState('');
   const [category, setCategory] = useState('');
   const [description, setDescription] = useState('');
+  const [date, setDate] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const formattedDate = new Date().toLocaleDateString('en-US');
     addTransaction(
         {   type, 
             amount: parseFloat(amount), 
             category, 
             description, 
+            date: formattedDate,
             id: Date.now() 
         }
     );
